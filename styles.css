@@ -42,13 +42,19 @@ nav a {
     font-size: 50px;
     font-family: 'Monaco', monospace;
     position: absolute; 
-    bottom: 50px; 
-    right: 500px
+    bottom: 10px; 
+    right: 500px;
 }
 
-#boton-primer-bloque {
+#boton-primer-bloque1 {
     position: absolute; 
     bottom: 50px; 
-    right: 500px
+    right: 450px;
+}
+
+#boton-primer-bloque1 {
+    position: absolute; 
+    bottom: 50px; 
+    right: 500px;
 }
 

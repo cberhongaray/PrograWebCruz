@@ -28,7 +28,7 @@ nav ul li {
 
 nav a {
     text-decoration: none; /* Elimina la subrayado de los enlaces */
-    color: #000000; /* Color del texto de los enlaces */
+    color: #6d6d6de3; /* Color del texto de los enlaces */
     font-family: 'MiFuente', sans-serif;
     font-weight: bold;
 }

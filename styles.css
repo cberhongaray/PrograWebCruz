@@ -33,12 +33,6 @@ nav a {
     font-weight: bold;
 }
 
-main section {
-    background-color: aquamarine;
-    width: 1300px;
-    height: 600px;
-}
-
 #Vamos {
     font-size: 100px;
     font-family: 'Monaco', monospace;

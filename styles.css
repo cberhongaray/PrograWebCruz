@@ -42,7 +42,7 @@ nav a {
     font-size: 50px;
     font-family: 'Monaco', monospace;
     position: absolute; 
-    bottom: 10px; 
+    bottom: 0px; 
     right: 500px;
 }
 
@@ -52,7 +52,7 @@ nav a {
     right: 450px;
 }
 
-#boton-primer-bloque1 {
+#boton-primer-bloque2 {
     position: absolute; 
     bottom: 50px; 
     right: 500px;

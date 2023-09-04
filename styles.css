@@ -38,23 +38,27 @@ nav a {
     width: 800px; /* Ajusta el ancho según tus necesidades */
 }
 
+.primer-bloque {
+    background-color: aquamarine;
+}
+
 #Vamos {
     font-size: 50px;
     font-family: 'Monaco', monospace;
     position: absolute; 
     top: 200px; 
-    right: 500px;
+    left: 100px;
 }
 
 #boton-primer-bloque1 {
     position: absolute; 
-    bottom: 50px; 
-    right: 450px;
+    top: 300px; 
+    left: 100px;
 }
 
 #boton-primer-bloque2 {
     position: absolute; 
-    bottom: 50px; 
-    right: 600px;
+    top: 300px; 
+    left: 50px;
 }
 

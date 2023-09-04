@@ -6,7 +6,6 @@ header {
     background-color: #E8F6F3 ; /* Color de fondo para el header */
     color: #000000; /* Color del texto */
     padding: 10px 20px; /* Espaciado interno para el header */
-    font-family: Monaco;
 }
 
 /* Estilos para el logo */
@@ -29,5 +28,5 @@ nav ul li {
 nav a {
     text-decoration: none; /* Elimina la subrayado de los enlaces */
     color: #000000; /* Color del texto de los enlaces */
-    font-family: Monaco;
+    font-family: 'MiFuente', sans-serif;
 }

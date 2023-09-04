@@ -41,6 +41,11 @@ nav a {
     right: 300px;
 }
 
+main section {
+    height: 400;
+    width: fit-content;
+}
+
 #boton-primer-bloque1 {
     position: absolute; 
     top: 300px; 

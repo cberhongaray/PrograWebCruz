@@ -1,0 +1,31 @@
+/* Estilos para el header */
+header {
+    display: flex; /* Utilizamos display: flex para crear un contenedor flexible */
+    justify-content: space-between; /* Distribuye los elementos alrededor */
+    align-items: center; /* Centra verticalmente los elementos */
+    background-color: #333; /* Color de fondo para el header */
+    color: #fff; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno para el header */
+}
+
+/* Estilos para el logo */
+logo {
+    display: flex; /* Para que los elementos dentro de #logo estén en línea */
+    align-items: center; /* Centra verticalmente los elementos dentro de #logo */
+}
+
+/* Estilos para la navegación */
+nav ul {
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el espaciado interno de la lista */
+}
+
+nav ul li {
+    display: inline; /* Hace que los elementos de la lista estén en línea */
+    margin-right: 20px; /* Agrega espacio entre los elementos de la lista */
+}
+
+nav a {
+    text-decoration: none; /* Elimina la subrayado de los enlaces */
+    color: #fff; /* Color del texto de los enlaces */
+}

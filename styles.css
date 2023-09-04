@@ -29,20 +29,19 @@ nav ul li {
 nav a {
     text-decoration: none; /* Elimina la subrayado de los enlaces */
     color: #6d6d6de3; /* Color del texto de los enlaces */
-    font-family: 'MiFuente', sans-serif;
+    font-family: 'Monaco', monospace;
     font-weight: bold;
 }
 
 .primer-bloque {
-    height: 500px; /* Ajusta la altura según tus necesidades */
+    height: 400px; /* Ajusta la altura según tus necesidades */
     width: 800px; /* Ajusta el ancho según tus necesidades */
 }
 
-.primer-bloque h1 {
-    font-size: large;
-    align-content: left;
-}
-
-#boton-primer-bloque {
-    align-self: center;
+#Vamos {
+    font-size: larger;
+    font-family: 'Monaco', monospace;
+    position: absolute; 
+    bottom: 200px; 
+    right: 500px
 }

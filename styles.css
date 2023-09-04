@@ -33,27 +33,29 @@ nav a {
     font-weight: bold;
 }
 
-.primer-bloque {
+main section {
     background-color: aquamarine;
+    width: 1300px;
+    height: 600px;
 }
 
 #Vamos {
-    font-size: 50px;
+    font-size: 100px;
     font-family: 'Monaco', monospace;
     position: absolute; 
-    top: 200px; 
-    right: 100px;
+    top: 100px; 
+    right: 300px;
 }
 
 #boton-primer-bloque1 {
     position: absolute; 
     top: 300px; 
-    right: 100px;
+    right: 530px;
 }
 
 #boton-primer-bloque2 {
     position: absolute; 
     top: 300px; 
-    right: 50px;
+    right: 400px;
 }
 

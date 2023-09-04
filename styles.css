@@ -28,5 +28,5 @@ nav ul li {
 nav a {
     text-decoration: none; /* Elimina la subrayado de los enlaces */
     color: #000000; /* Color del texto de los enlaces */
-    font-style: Monaco;
+    font-family: Monaco;
 }

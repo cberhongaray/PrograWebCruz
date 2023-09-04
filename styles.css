@@ -34,11 +34,6 @@ nav a {
 }
 
 .primer-bloque {
-    height: 400px; /* Ajusta la altura según tus necesidades */
-    width: 800px; /* Ajusta el ancho según tus necesidades */
-}
-
-.primer-bloque {
     background-color: aquamarine;
 }
 

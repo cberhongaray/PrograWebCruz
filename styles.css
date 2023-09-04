@@ -47,7 +47,7 @@ nav a {
 }
 
 #boton-primer-bloque1 {
-    position: absolute; 
+    position: relative; 
     bottom: 50px; 
     right: 450px;
 }
@@ -55,6 +55,6 @@ nav a {
 #boton-primer-bloque2 {
     position: absolute; 
     bottom: 50px; 
-    right: 500px;
+    right: 600px;
 }
 

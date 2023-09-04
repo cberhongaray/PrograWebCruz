@@ -13,6 +13,8 @@ header {
 #logo {
     display: flex; /* Para que los elementos dentro de #logo estén en línea */
     align-items: center; /* Centra verticalmente los elementos dentro de #logo */
+    width: auto;
+    height: auto;
 }
 
 /* Estilos para la navegación */
@@ -43,7 +45,7 @@ nav a {
 
 main section {
     height: 400px;
-    width: fit-content;
+    width: auto;
 }
 
 #boton-primer-bloque1 {

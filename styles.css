@@ -1,6 +1,5 @@
-
 header {
-    display: flex; 
+    display: flex;
     justify-content: space-between; 
     align-items: center; 
     background-color: #E8F6F3 ; 
@@ -11,9 +10,12 @@ header {
 
 #logo {
     display: flex; 
-    align-items: center; 
-    width: auto;
-    height: 100px;
+    align-items: center;
+}
+
+.logo-pick {
+  height: 50px;
+  width: 89px;
 }
 
 nav ul {
@@ -43,26 +45,25 @@ main section {
     font-family: 'Monaco', monospace;
     position: absolute; 
     top: 150px; 
-    right: 300px;
+    right: 200px;
 }
 
 #boton-primer-bloque1 {
     position: absolute; 
     top: 350px; 
-    right: 530px;
+    right: 430px;
 }
 
 #boton-primer-bloque2 {
     position: absolute; 
     top: 350px; 
-    right: 400px;
+    right: 300px;
 }
 
-#foto-primer-bloque {
+.foto-primer-bloque {
     position: absolute;
-    left: 100px;
-    top: 75px;
-    width: 200px;
-    height: 100px;
+    left: 90px;
+    top: 120px;
+    width: 650px;
+    height: 350px;
 }
-

@@ -3,9 +3,11 @@ img {
     height: 200px;
 }
 
-.Block {
-    width: 800px;
-    height: 400px;
-    border: 1px solid black;
+#Block1, #Block3 {
+    background-color: green;
+}
+
+footer {
+    background-color: green;
 }
 

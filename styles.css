@@ -34,6 +34,7 @@ main {
 
 .block {
     height: 375px;
+    width: auto;
 }
 
 .navigation-bar {

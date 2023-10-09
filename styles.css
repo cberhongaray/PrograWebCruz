@@ -5,8 +5,8 @@ body {
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+    height: 200px;
+    width: 300px;
 }
 
 footer {
@@ -25,16 +25,15 @@ main {
     margin-top: 60px;
 }
 
-.content-card {
-    width: 300px;
-    display: inline-table;
-    padding: 30px;
-
+.conten-card {
+    width: 30%; 
+    height: 100%; 
+    margin-right: 10px; 
 }
 
 .block {
     height: 375px;
-    width: auto;
+    width: 100%;
 }
 
 .navigation-bar {
@@ -122,6 +121,8 @@ main {
 }
 
 #block-2 {
+    display: flex;
+    align-items: center;
     text-align: center;
 }
 

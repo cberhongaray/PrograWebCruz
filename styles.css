@@ -25,11 +25,6 @@ main {
     margin-top: 60px;
 }
 
-.conten-card {
-    width: 30%; 
-    height: 100%; 
-    margin-right: 10px; 
-}
 
 .block {
     height: 375px;
@@ -85,9 +80,9 @@ main {
 }
 
 #title {
-    display: inline;
     width: 25%;
     padding-top: 10px;
+    display: inline;
 }
 
 #title h1 {
@@ -122,8 +117,14 @@ main {
 
 #block-2 {
     display: flex;
-    align-items: center;
     text-align: center;
+    margin: 1%;
+}
+
+#block-2 .content-card {
+    width: 30%; 
+    height: 100%; 
+    margin-inline: 5%; 
 }
 
 #block-3 img {

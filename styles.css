@@ -6,25 +6,6 @@ body {
     color: green;
 }
 
-.figure {
-    width: 50%;
-    height: 100%;
-    display:inline-flex;
-    text-align: center;
-}
-
-#container1 {
-    display: flex;
-    padding: 2%;
-    background-color: aliceblue;
-}
-
-.scnd-cont {
-    width: 50%;
-    padding: 4%;
-    text-align: center;
-}
-
 .btn {
     margin: 1%;
 }
@@ -34,6 +15,23 @@ body {
     width: 100%;
 }
 
+.scnd-cont {
+    width: 50%;
+}
+
+.figure {
+    margin-left: 2%;
+}
+
+#container1 {
+    width: 100%; /* Ancho del div */
+    height: 500px; /* Altura del div */
+    background-image: url('Images/IMG9.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir completamente el div */
+    background-position: center; /* Centra la imagen en el div */
+    color: white; /* Color del texto en el div, para asegurarse de que sea visible */
+    padding: 10%; /* Añade un relleno interior al div si lo deseas */
+}
 
 #container2 {
     background-color: rgb(153, 193, 153);
@@ -53,4 +51,3 @@ body {
     align-items: center;
     padding: 2%;
 }
-

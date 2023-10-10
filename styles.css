@@ -1,5 +1,6 @@
 body {
     background-color: rgb(126, 162, 126);
+    font-family: 'Gabarito', sans-serif;
 }
 
 .navbar-brand {
@@ -11,8 +12,13 @@ body {
 }
 
 .card {
-    background-color: aliceblue;
+    background-color: rgb(222, 222, 186);
     width: 100%;
+    border: 0px;
+}
+
+.card-title {
+    font-size: x-large;
 }
 
 .scnd-cont {
@@ -21,6 +27,10 @@ body {
 
 .figure {
     margin-left: 2%;
+}
+
+.display-1, .navbar-brand {
+    font-weight: 800;
 }
 
 #container1 {
@@ -34,20 +44,47 @@ body {
 }
 
 #container2 {
-    background-color: rgb(153, 193, 153);
-    padding: 2%;
+    background-color: rgb(87, 113, 87);
+    padding: 3%;
 }
 
 #container3 {
-    padding: 2%;
-    background-color: aliceblue;
+    padding: 3%;
+    background-color: rgb(222, 222, 186);
     display: flex;
 }
 
+@media (max-width: 480px) {
+    #container3 {
+        padding: 3%;
+        background-color: rgb(222, 222, 186);
+        text-align: center;
+        display: inline-block;
+    }
+
+    .scnd-cont {
+        width: 100%;
+    }
+
+    .scnd-cont h2 {
+        font-size: x-large;
+        font-weight: 600;
+    }
+
+    .scnd-cont p {
+        font-size: large;
+    }
+    
+    .scnd-cont a {
+        font-size: large;
+    }
+
+}
+
 #container4 {
-    background-color: rgb(153, 193, 153);
+    background-color: rgb(87, 113, 87);
     display: flex;
     text-align: center;
     align-items: center;
-    padding: 2%;
+    padding: 3%;
 }

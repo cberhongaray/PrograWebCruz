@@ -101,9 +101,113 @@
             </figure>
         </div>
         <div id="container4" class="container-fluid">
+            <h3>Registrate y comenza a viajar</h3>
+            <form>
+                <div class="row mb-3">
+                  <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control" id="inputEmail3">
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                  <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword3">
+                  </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="inputPassword3" class="col-sm-2 col-form-label">Confirm Password</label>
+                    <div class="col-sm-10">
+                      <input type="password" class="form-control" id="inputPassword3">
+                    </div>
+                    <fieldset class="row mb-3">
+                        <legend class="col-form-label col-sm-2 pt-0">Perfil</legend>
+                        <div class="col-sm-10">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                <label class="form-check-label" for="gridRadios1">
+                                Conductor
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                <label class="form-check-label" for="gridRadios2">
+                                Pasajero
+                                </label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-outline-light">Listo!</button>
+                    </div>
+                </div>
+              </form>
+              <hr>
+              <h3>Si ya tenes una cuenta, busca viaje aca!</h3>
+              <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">Username</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputPassword4" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputAddress" class="form-label">Origen</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="Ej. Tandil, Buenos Aires">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputAddress2" class="form-label">Destino</label>
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="Ej. Cordoba Capital, Cordoba">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputAddress2" class="form-label">Elige un rango horario que te quede comodo</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option value="1">7hs-12hs</option>
+                        <option value="2">12hs-17hs</option>
+                        <option value="3">17hs-22hs</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                  <label for="inputState" class="form-label">Cuanto quieres gastar?</label>
+                  <div class="input-group mb-3">
+                    <span class="input-group-text">$</span>
+                    <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+                  </div>                  
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-outline-light">Buscar</button>
+                </div>
+              </form>
         </div>
     </main>
     <footer>
+        <div id="last-cont" class="container-fluid">
+            <ul class="lista-sin-bullets">
+                <li><a></a><strong>Conductor</strong></a></li>
+                <li>Ser conductor en Pick</li>
+                <li>Guia para conductores nuevos</li>
+                <li>Ayuda</li>
+                <li>Seguridad</li>
+                <li>Requisitos de solicitud</li>
+                <li>Seguro</li>
+            </ul>
+            <ul class="lista-sin-bullets">
+                <li><strong>Pasajero</strong></li>
+                <li>Registrate para viajar</li>
+                <li>Estimacion de tarifa</li>
+                <li>Ayuda</li>
+                <li>Seguridad</li>
+            </ul>
+            <ul class="lista-sin-bullets">
+                <li><strong>Pick</strong></li>
+                <li>Contacto</li>
+                <li>Centro de ayuda</li>
+                <li>Nuestras redes sociales</li>
+                <li>Perfil del negocio</li>
+            </ul>
+        </div>
         <p>&copy; 2023 Ridesharing App. Todos los derechos reservados.</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

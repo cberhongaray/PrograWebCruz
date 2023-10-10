@@ -3,6 +3,15 @@ body {
     font-family: 'Gabarito', sans-serif;
 }
 
+footer ul {
+    padding: 3%;
+    display:inline-table;
+}
+
+.row.mb-3 {
+    margin-top: 3%;
+}
+
 .navbar-brand {
     color: green;
 }
@@ -32,6 +41,20 @@ body {
 .display-1, .navbar-brand {
     font-weight: 800;
 }
+
+.btn-dark {
+    background-color: rgb(87, 113, 87);
+    border: 0px;
+}
+
+.gy-2 {
+    padding: 2%;
+}
+
+.lista-sin-bullets {
+    list-style-type: none;
+}
+
 
 #container1 {
     width: 100%; /* Ancho del div */
@@ -79,12 +102,24 @@ body {
         font-size: large;
     }
 
+    footer ul {
+        padding: 3%;
+    }
+
+    #container2 {
+        padding: 6%;
+    }
+
 }
 
 #container4 {
     background-color: rgb(87, 113, 87);
-    display: flex;
-    text-align: center;
     align-items: center;
     padding: 3%;
+    color: rgb(222, 222, 186);
+}
+
+#last-cont {
+    background-color: rgb(22, 29, 22);
+    color: azure;
 }

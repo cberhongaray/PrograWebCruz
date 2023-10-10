@@ -2,102 +2,132 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Pick</title>
     <link rel="stylesheet" href="styles.css"> 
 </head>
 <body>
     <header>
-        <nav class="navigation-bar">
-            <div id="title">
-                <h1>Pick</h1>
+        <nav class="navbar fixed-top bg-body-tertiary">
+            <div class="container-fluid">
+                <nav class="navbar bg-body-tertiary fixed-top">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img src="Images/pick.png" alt="Pick" width="70" height="45">
+                          </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Pick</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Sobre nosotros</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Que necesitas?
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Quiero ofrecer viaje</a></li>
+                                <li><a class="dropdown-item" href="#">Necesito viaje</a></li>
+                                <li>
+                                  <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Quiero saber mas</a></li>
+                              </ul>
+                            </li>
+                          </ul>
+                          <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Buscar</button>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
             </div>
-            <div id="menu">               
-                <a>Conductor</a>
-                <a>Pasajero</a>
-                <a>Registrarse</a>
-                <a>Iniciar Sesion</a>
-            </div>
-        </nav>
+          </nav>
     </header>
     <main>
-        <div class="block" id="block-1">
-            <img class="first-block-Img" src='Images/IMG9.jpg' alt='Van Riding'/></a>
-            <div class="first-block-container">
-                <h1 class="important-title">Vamos!</h1>
-                <button class="firts-block-button">Soy Pasajero</button>
-                <button class="firts-block-button">Soy Conductor</button>
+        <div id="container1" class="container">
+            <figure class="figure">
+                <img src="Images/IMG9.jpg" class="figure-img img-fluid rounded" alt="...">
+            </figure>
+            <div class="scnd-cont">
+                <h1 class="display-1">Vamos!</h1>
+                <button type="button" class="btn btn-light">Soy Pasajero</button>
+                <button type="button" class="btn btn-dark">Soy Conductor</button>
             </div>
         </div>
-        <div class="block" id="block-2">
-            <div class="content-card">
-                <img class="Second-Block-Img" src="Images/IMG8.jpg"/>
-                <h2>Seguro</h2>
-                <p>Los conductores estan verificados y deben cumplir con requisitos basicos de seguridad vial, lo cual agrega confiabilidad  a tu viaje</p>
+        <div id="container2" class="container">
+            <div class="card" style="width: 18rem;">
+                <img src="Images/IMG8.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4>Seguro</h4>
+                    <p class="card-text">Los conductores estan verificados y deben cumplir con requisitos basicos de seguridad vial, lo cual agrega confiabilidad  a tu viaje</p>
+                </div>
             </div>
-            <div class="content-card">
-                <img class="Second-Block-Img" src="Images/IMG7.jpeg"/>
-                <h2>Economico</h2>
-                <p>No tenemos precios fijos, el precio lo fija el conductor del auto y este se divide entre los pasajeros lo cual hace que tu viaje sea mucho mas economico</p>
+            <div class="card" style="width: 18rem;">
+                <img src="Images/IMG7.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4>Economico</h4>
+                    <p class="card-text">No tenemos precios fijos, el precio de tu viaje se fija en funcion de los gastos que tenga el conductor. Haciendolo mucho mas economico</p>
+                </div>
             </div>
-            <div class="content-card">
-                <img class="Second-Block-Img" src="Images/IMG6.jpg"/>
-                <h2>Amigable con el medio ambiente</h2>
-                <p>Reducimos notablemente las emisiones de gases de efecto invernadero al promover los viajes compartidos</p>
+            <div class="card" style="width: 18rem;">
+                <img src="Images/IMG6.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4>Eco-firendly</h4>
+                  <p class="card-text">Reducimos notablemente las emisiones de gases de efecto invernadero al promover los viajes compartidos</p>
+                </div>
             </div>
         </div>
-        <div class="block" id="block-3">
-            <div class="third-block-container">
-                <h1><strong>Hacemos tus viajes mas accesibles</strong></h1>
+        <div id="container3" class="container">
+            <div class="scnd-cont">
+                <h2>Hacer tus viajes mas accesibles</h2>
                 <p>Un viaje es más que solo un viaje. Es la llave para conseguir oportunidades y trabajos. Una conexión con la comunidad. Y acceso a productos y servicios esenciales, como despensas, atención médica y centros de votación. Nuestra iniciativa Pick hace más accesibles los viajes para miles de personas y ayuda a acercar aún más a las comunidades.</p>
-                <a>Conoce mas ></a>
+                <a href="#">conoce mas ></a>
             </div>
-            <img src="Images\IMG1.jpg" alt="Man Driving"/>
+            <figure class="figure">
+                <img src="Images/IMG1.jpg" class="figure-img img-fluid rounded" alt="...">
+            </figure>
         </div>
-        <div class="block" id="block-4">
-            <div class="fourth-block-container" id="a">
-                <h1>Medios de pago</h1>
-                <a>Mas info ></a>
-            </div>
-            <div class="fourth-block-container"  id="b">
-                <h1>Requisitos de seguridad</h1>
-                <a>Mas info ></a>
-            </div>
-            <div class="fourth-block-container"  id="c">
-                <h1>Como cobro mi viaje?</h1>
-                <a>Mas info ></a>
-            </div>
+        <div id="container4" class="container">
+            <div class="card text-bg-dark">
+                <img src="Images/IMG5.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <h3 class="card-title">Medios de Pago</h3>
+                  <a href="#">conoce mas ></a>
+                </div>
+              </div>
+              <div class="card text-bg-dark">
+                <img src="Images/IMG4.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <h3 class="card-title">Requisitos de Seguridad</h3>
+                  <a href="#">conoce mas ></a>
+                </div>
+              </div>
+              <div class="card text-bg-dark">
+                <img src="Images/IMG2.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <h3 class="card-title">Como cobro mi viaje?</h3>
+                  <a href="#">conoce mas ></a>
+                </div>
+              </div>
         </div>
     </main>
     <footer>
-        <div>
-            <h3>Conductor</h3>
-            <ul class="support information">
-                <a>Ser conductor</a>
-                <a>Guia para conductores nuevos</a>
-                <a>Ayuda</a>
-                <a>Seguridad</a>
-                <a>Requisitos de solicitud</a>
-                <a>Seguro</a>
-            </ul>
-        </div>
-        <div>
-            <h3>Viajero</h3>
-            <ul class="support information">
-                <a>Registrtate para viajar</a>
-                <a>Estimacion de tarifa</a>
-                <a>Ayuda</a>
-                <a>Seguridad</a>
-            </ul>
-        </div>
-        <div>
-            <h3>Pick</h3>
-            <ul class="support information">
-                <a>Contacto</a>
-                <a>Perfil del Negocio</a>
-                <a>Nuestras Redes Sociales</a>
-            </ul>
-        </div>
         <p>&copy; 2023 Ridesharing App. Todos los derechos reservados.</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

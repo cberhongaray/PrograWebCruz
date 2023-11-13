@@ -123,3 +123,7 @@ footer ul {
     background-color: rgb(22, 29, 22);
     color: azure;
 }
+
+.oculto {
+    display: none;
+}

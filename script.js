@@ -29,3 +29,4 @@ function usuarioRegistrado(email) {
         return usuario.email === email;
     });
 }
+

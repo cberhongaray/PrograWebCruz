@@ -1,4 +1,8 @@
 var usuariosRegistrados = [];
+var viajesDisponibles = [
+    { origen: "Tandil, Buenos Aires", destino: "Cordoba Capital, Cordoba", horario: "12hs-17hs", costo: 50 },
+    // Agrega más viajes simulados según sea necesario
+];
 
 function registrarUsuario(event) {
     event.preventDefault();
@@ -28,6 +32,38 @@ function usuarioRegistrado(email) {
     return usuariosRegistrados.some(function (usuario) {
         return usuario.email === email;
     });
+}
+
+function buscarViaje(event) {
+    event.preventDefault();
+
+    var usuarioEmail = document.getElementById("inputEmail4").value;
+
+    // Verifica si el usuario está registrado
+    console.log("Usuario registrado:", usuarioRegistrado(usuarioEmail));
+
+    if (!usuarioRegistrado(usuarioEmail)) {
+        alert("Usuario no registrado. Por favor, regístrate para buscar viajes.");
+        return;
+    }
+
+    // Obtén detalles del viaje simulado (puedes ajustar la lógica según tus necesidades)
+    var viaje = obtenerViajeDisponible();
+
+    // Muestra la información del viaje si está disponible
+    console.log("Viaje disponible:", viaje);
+
+    if (viaje) {
+        alert(`Viaje disponible:\nOrigen: ${viaje.origen}\nDestino: ${viaje.destino}\nHorario: ${viaje.horario}\nCosto: $${viaje.costo}`);
+    } else {
+        alert("Lo sentimos, no hay viajes disponibles en este momento.");
+    }
+}
+
+
+function obtenerViajeDisponible() {
+    // Simulación simple: Devuelve el primer viaje disponible
+    return viajesDisponibles.length > 0 ? viajesDisponibles[0] : null;
 }
 
 function irASeccion(idSeccion) {

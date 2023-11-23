@@ -30,3 +30,8 @@ function usuarioRegistrado(email) {
     });
 }
 
+function irASeccion(idSeccion) {
+    // Utiliza smooth scroll para un desplazamiento suave
+    document.getElementById(idSeccion).scrollIntoView({ behavior: "smooth" });
+}
+

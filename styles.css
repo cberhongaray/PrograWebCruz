@@ -55,6 +55,25 @@ footer ul {
     list-style-type: none;
 }
 
+.pagina-a {
+    background-color: rgb(86, 127, 85);
+    color: aliceblue;
+}
+
+.pagina-a .container {
+    padding: 1%;
+    margin: 3%;
+}
+
+.pagina-i {
+    background-color: rgb(86, 127, 85);
+    color: aliceblue;
+}
+
+.pagina-i .container {
+    padding: 1%;
+    margin: 3%;
+}
 
 #container1 {
     width: 100%; /* Ancho del div */

@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400;900&display=swap" rel="stylesheet"> 
     <link rel="icon" href="Images/22.png" type="image/x-icon">
 </head>
-<body>
+<body class="pagina-p">
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
@@ -27,18 +27,10 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./indexayuda.html">Ayuda</a>
+                    <a class="nav-link" href="./indexAyuda.html">Ayuda</a>
                   </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Que necesitas?
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="./indexPasajero.html">Soy Pasajero</a></li>
-                      <li><a class="dropdown-item" href="./indexConductor.html">Soy Conductor</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Solo quiero mas informacion</a></li>
-                    </ul>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./indexInfo.html">Informacion</a>
                   </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -53,8 +45,8 @@
         <div id="container1" class="container-fluid">
             <div class="scnd-cont 1">
                 <h1 class="display-1"><strong>Vamos!</strong></h1>
-                <button type="button" class="btn btn-light">Soy Pasajero</button>
-                <button type="button" class="btn btn-dark">Soy Conductor</button>
+                <button type="button" class="btn btn-light" onclick="irASeccion('2')">Soy Pasajero</button>
+                <button type="button" class="btn btn-dark" onclick="irASeccion('1')">Soy Conductor</button>
             </div>
         </div>
         <div id="container2" class="container-fluid">
@@ -97,14 +89,14 @@
                 <p class="lead">
                     Es la llave para conseguir oportunidades y trabajos. Una conexión con la comunidad. Y acceso a productos y servicios esenciales, como despensas, atención médica y centros de votación. Nuestra iniciativa Pick hace más accesibles los viajes para miles de personas y ayuda a acercar aún más a las comunidades.
                 </p>
-                <a href="#">conoce mas ></a>
+                <a href="indexInfo.html">conoce mas ></a>
             </div>
             <figure class="figure">
                 <img src="Images/IMG1.jpg" class="figure-img img-fluid rounded" alt="...">
             </figure>
         </div>
         <div id="container4" class="container-fluid">
-            <h3>Registrate y comenza a viajar</h3>
+            <h3 id="1">Registrate y comenza a viajar</h3>
             <form id="formularioRegistro" onsubmit="registrarUsuario(event)">
                 <div class="row mb-3">
                     <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
@@ -149,7 +141,7 @@
                 ¡Ya estás registrado!
             </div>
             <hr>
-            <h3>Si ya tenes una cuenta, busca viaje aca!</h3>
+            <h3 id="2">Si ya tenes una cuenta, busca viaje aca!</h3>
             <form class="row g-3">
                 <div class="col-md-6">
                   <label for="inputEmail4" class="form-label">Username</label>

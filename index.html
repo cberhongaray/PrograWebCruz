@@ -142,7 +142,7 @@
             </div>
             <hr>
             <h3 id="2">Si ya tenes una cuenta, busca viaje aca!</h3>
-            <form class="row g-3">
+            <form id="formularioBuscarViaje" onsubmit="buscarViaje(event)" class="row g-3">
                 <div class="col-md-6">
                   <label for="inputEmail4" class="form-label">Email (con el que te registraste)</label>
                   <input type="email" class="form-control" id="inputEmail4">
@@ -160,8 +160,8 @@
                   <input type="text" class="form-control" id="inputAddress2" placeholder="Ej. Cordoba Capital, Cordoba">
                 </div>
                 <div class="col-md-6">
-                    <label for="inputAddress2" class="form-label">Elige un rango horario que te quede comodo</label>
-                    <select class="form-select" aria-label="Default select example">
+                    <label for="horario" class="form-label">Elige un rango horario que te quede comodo</label>
+                    <select class="form-select" id="horario" aria-label="Default select example">
                         <option value="1">7hs-12hs</option>
                         <option value="2">12hs-17hs</option>
                         <option value="3">17hs-22hs</option>
@@ -175,9 +175,15 @@
                   </div>                  
                 </div>
                 <div class="col-12">
-                    <button type="submit" class="btn btn-outline-light">Buscar</button>
-                </div>
+                  <button type="submit" class="btn btn-outline-light" onclick="buscarViaje(event)">Buscar</button>
+                </div>              
             </form>
+            <div id="listaViajesDisponibles" style="display: none;" class="card">
+              <div class="card-body">
+                <strong>Viajes Disponibles:</strong>
+                <ul id="listaViajes"></ul>
+              </div>
+            </div>
         </div>
     </main>
     <footer>
